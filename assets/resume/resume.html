@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Emmanuel Owusu Asante — Résumé</title>
+<style>
+  @page { size: Letter; margin: 12mm 15mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font: 9.7pt/1.3 "Helvetica Neue", Arial, sans-serif;
+    color: #1a1a1a; max-width: 720px; margin: 0 auto; padding: 8px 12px;
+  }
+  h1 { font-size: 19pt; letter-spacing: -.01em; }
+  .contact { margin-top: 3px; color: #444; font-size: 8.5pt; }
+  .contact a { color: #444; text-decoration: none; }
+  h2 {
+    font-size: 8.8pt; text-transform: uppercase; letter-spacing: .12em;
+    color: #0b6b78; border-bottom: 1.5px solid #0b6b78;
+    padding-bottom: 2px; margin: 9px 0 4px;
+  }
+  p { margin-bottom: 3px; }
+  .role { display: flex; justify-content: space-between; gap: 12px; font-weight: 700; }
+  .role .when { font-weight: 400; color: #555; white-space: nowrap; font-size: 9pt; }
+  .sub { font-style: italic; color: #555; margin-bottom: 2px; }
+  ul { margin: 2px 0 5px 15px; }
+  li { margin-bottom: 1px; }
+  .item { margin-bottom: 5px; }
+  .skills b { display: inline-block; min-width: 88px; color: #333; }
+  .muted { color: #666; }
+  @media screen { body { background:#fff; box-shadow:0 0 0 1px #eee; margin:24px auto; } }
+</style>
+</head>
+<body>
+
+  <h1>Emmanuel Owusu Asante</h1>
+  <div class="contact">
+    emanuelasante2@gmail.com &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/emmanuel-asante-377aa52a0/">linkedin.com/in/emmanuel-asante</a> &nbsp;·&nbsp;
+    <a href="https://github.com/kkr1pt3k">github.com/kkr1pt3k</a> &nbsp;·&nbsp;
+    <a href="https://kkr1pt3k.github.io">kkr1pt3k.github.io</a>
+  </div>
+
+  <h2>Summary</h2>
+  <p>
+    Machine-learning practitioner with an MPS in Analytics (Machine Intelligence) and a
+    mathematics background. Hands-on work across computer vision, clinical predictive
+    modeling, and reproducible data analysis in Python.
+  </p>
+
+  <h2>Education</h2>
+  <div class="item">
+    <div class="role"><span>Northeastern University</span><span class="when">2025</span></div>
+    <div class="sub">Master of Professional Studies, Analytics — Concentration: Machine Intelligence</div>
+  </div>
+  <div class="item">
+    <div class="role"><span>University of Mines and Technology (UMaT), Ghana</span><span class="when">&nbsp;</span></div>
+    <div class="sub">BSc, Mathematics</div>
+  </div>
+
+  <h2>Technical Skills</h2>
+  <p class="skills"><b>Languages</b> Python, MATLAB, SQL</p>
+  <p class="skills"><b>ML &amp; CV</b> PyTorch, scikit-learn, CNNs, semantic segmentation, transformers (SegFormer / ViT), OpenCV / scikit-image</p>
+  <p class="skills"><b>Data</b> pandas, NumPy, matplotlib, seaborn, Jupyter, cross-validation, EDA, feature engineering</p>
+  <p class="skills"><b>Tools</b> Git / GitHub, ImageJ / Fiji, PyImageJ, Linux</p>
+
+  <h2>Selected Projects</h2>
+
+  <div class="item">
+    <div class="role"><span>LightCSPNet — Cloud Detection &amp; Segmentation, Landsat&nbsp;8</span><span class="when">2026</span></div>
+    <div class="sub">Independent research · Python, PyTorch</div>
+    <ul>
+      <li>Built a compact CNN encoder–decoder for pixel-level cloud segmentation, progressing from USGS EarthExplorer scenes and Otsu pseudo-masks to the annotated 38-Cloud benchmark.</li>
+      <li>Reported IoU 0.73 / Dice 0.85 — ahead of a CLIP patch classifier and zero-shot SegFormer / ViT baselines.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role"><span>Spinal Abscess Prediction from ICU Records</span><span class="when">2024</span></div>
+    <div class="sub">Northeastern University, EAI&nbsp;6010 · team of 2 · Python, scikit-learn</div>
+    <ul>
+      <li>Constructed a case/control cohort from the MIMIC-III critical-care database, joining admissions, diagnoses, procedures, and patient tables.</li>
+      <li>Trained and evaluated a logistic-regression classifier with stratified 5-fold cross-validation: AUC 0.776 (95% CI 0.71–0.87), sensitivity 0.69, specificity 0.65.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role"><span>Particle-Size Analysis with ImageJ &amp; PyImageJ</span><span class="when">2024</span></div>
+    <div class="sub">Research collaboration · Python, PyImageJ / Fiji</div>
+    <ul>
+      <li>Scripted headless Fiji from Python to batch-segment metal-powder micrographs (Ti-6Al-4V, ball-milled powders) and derive size distributions, with downstream regression comparing measurement methods.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role"><span>NearPeer Enrollment Analysis</span><span class="when">2024</span></div>
+    <div class="sub">Northeastern University, ALY&nbsp;6080 · team of 4 · Python, pandas</div>
+    <ul>
+      <li>Merged platform-engagement data with university records; cleaned, joined, and engineered time-based features for exploratory analysis of engagement vs. enrollment.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role"><span>MCQ Marking Software</span><span class="when">&nbsp;</span></div>
+    <div class="sub">MATLAB · Image Processing Toolbox</div>
+    <ul>
+      <li>Desktop GUI that auto-grades scanned multiple-choice answer sheets against a marking scheme using thresholding and connected-component analysis.</li>
+    </ul>
+  </div>
+
+  <h2>Experience</h2>
+  <div class="item">
+    <div class="role"><span>iZen AI Academy — Curriculum &amp; Autograder Development</span></div>
+    <ul>
+      <li>Developed Python, NumPy, pandas, and machine-learning course materials and automated-grading templates delivered through GitHub Classroom.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
