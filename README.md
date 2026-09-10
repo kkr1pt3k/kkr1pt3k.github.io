@@ -21,13 +21,14 @@ directly (`.nojekyll` disables Jekyll processing).
 
 ## Status
 
-Email, LinkedIn, graduation year, and the résumé PDF are all filled in.
-Still worth a personal pass:
+Live at <https://kkr1pt3k.github.io>. Contact details, résumé, and copy are all in place.
 
-- Hero + About prose — tweak to your voice (marked with `EDIT:` comments in `index.html`)
-- `assets/resume/resume.html` → the "Experience" entry for iZen AI Academy needs
-  a real title and dates; re-export the PDF afterwards (see below)
-- Optional: add `assets/headshot.jpg` and wire it into the header
+Optional next steps:
+
+- Add employment dates to the iZen AI Academy entry in `assets/resume/resume.html`
+  if you want them, then re-export the PDF (see below)
+- Add `assets/headshot.jpg` and wire it into the hero header
+- Any further wording tweaks in `index.html`
 
 ## Regenerating the résumé PDF
 
