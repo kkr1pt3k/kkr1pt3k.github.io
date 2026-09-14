@@ -74,10 +74,11 @@
   <!-- ============ WORK ============ -->
   <section id="work" class="section container">
     <div class="section__head">
-      <span class="section__idx">01 — 05</span>
+      <span class="section__idx">01 — 06</span>
       <h2>Selected work</h2>
-      <p>Five projects spanning deep learning for remote sensing, clinical risk
-      prediction, classical image processing, and reproducible data analysis.</p>
+      <p>Six projects spanning deep learning for remote sensing, clinical risk
+      prediction, classical image processing, applied business analytics, and
+      reproducible data analysis.</p>
     </div>
 
     <!-- ---- Project 01: LightCSPNet ---- -->
@@ -376,6 +377,64 @@
           <figure class="fig fig--light">
             <img src="assets/img/spinal-feature-importance.png" alt="Bar chart of the top 50 logistic-regression coefficients for spinal abscess classification" loading="lazy">
             <figcaption>Top logistic-regression coefficients — discharge location, age, and insurance lead.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <!-- ---- Project 06: TruRoots Demand & Pricing Capstone ---- -->
+    <article class="project">
+      <div class="project__meta">
+        <span class="project__num">06</span>
+        <div>
+          <h3>Demand Forecasting &amp; Pricing Analytics for a Premium Juice Brand</h3>
+          <p class="project__sub">Northeastern University · ALY 6980 Capstone · Client: TruRoots · Team project · 2025</p>
+        </div>
+      </div>
+
+      <div class="project__grid">
+        <div class="project__body">
+          <p>
+            A client-sponsored capstone with <strong>TruRoots</strong>, a premium juice
+            brand, run through Northeastern's Roux Institute. The brief: help the
+            brand plan production and promotions for seasonal and limited-edition SKUs,
+            which are hard to forecast and prone to costly over- or under-production.
+          </p>
+          <p>
+            Work spanned two threads — demand forecasting and pricing analytics — built
+            on syndicated retail-panel data (SPINS) and the client's own sales and
+            promotional history.
+          </p>
+          <ul class="feature-list">
+            <li>Compared ARIMA, LSTM, and XGBoost forecasts against seasonal, weather, and promotional drivers</li>
+            <li>Modeled brand-level price elasticity and mapped discount depth against unit-sales lift to find the most efficient promotional range</li>
+            <li>Segmented customers by price sensitivity with K-means clustering</li>
+            <li>Packaged findings into an interactive dashboard for stakeholder decision-making</li>
+          </ul>
+          <ul class="tags">
+            <li>Python</li><li>Time-series forecasting</li><li>ARIMA / LSTM / XGBoost</li>
+            <li>Price elasticity</li><li>K-means clustering</li><li>pandas</li>
+          </ul>
+          <p class="note">
+            Built on SPINS syndicated data and TruRoots' proprietary sales data under
+            the capstone's sponsor agreement; code and data are not published.
+          </p>
+        </div>
+
+        <div class="project__media">
+          <figure class="fig">
+            <svg viewBox="0 0 420 250" role="img" aria-label="Capstone workflow diagram" class="diagram">
+              <g class="d-box"><rect x="12" y="16" width="396" height="40" rx="6"></rect><text x="210" y="40">SPINS panel data + TruRoots sales &amp; promo history</text></g>
+              <line x1="210" y1="56" x2="210" y2="82" marker-end="url(#ar)"></line>
+              <g class="d-box"><rect x="12" y="84" width="188" height="46" rx="6"></rect><text x="106" y="103">Demand forecasting</text><text x="106" y="120" class="d-small">ARIMA · LSTM · XGBoost</text></g>
+              <g class="d-box"><rect x="220" y="84" width="188" height="46" rx="6"></rect><text x="314" y="103">Pricing analytics</text><text x="314" y="120" class="d-small">Elasticity · K-means</text></g>
+              <line x1="106" y1="130" x2="106" y2="156" marker-end="url(#ar)"></line>
+              <line x1="314" y1="130" x2="314" y2="156" marker-end="url(#ar)"></line>
+              <g class="d-box"><rect x="12" y="158" width="396" height="40" rx="6"></rect><text x="210" y="182">Production &amp; promotion recommendations</text></g>
+              <line x1="210" y1="198" x2="210" y2="210" marker-end="url(#ar)"></line>
+              <g class="d-box d-box--accent"><rect x="12" y="212" width="396" height="30" rx="6"></rect><text x="210" y="230">Interactive stakeholder dashboard</text></g>
+            </svg>
+            <figcaption>Two workstreams — forecasting and pricing — feeding one set of recommendations.</figcaption>
           </figure>
         </div>
       </div>
